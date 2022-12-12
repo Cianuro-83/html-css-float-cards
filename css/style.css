@@ -1,5 +1,4 @@
 *{
-    /* background-color:rosybrown; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,8 +12,8 @@
 
 img{
     max-width: 100%;
-    /* width: 90px; */
-    height: 105px;
+    height: 90px;
+    
 }
 .clearfix::after {
 	content: '';
@@ -29,9 +28,8 @@ a{
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    background-color: aqua;
 }
 .title{
     color: red;
@@ -51,12 +49,11 @@ a{
 
 .team1, .team2, .team3, .team4, .team5, .team6{
     width: 30%;
-    /* height: 150px; */
     background-color:black;
     float: left;
     margin-right: 5%;
     color: white;
-    box-shadow: 3px -10px 5px rgba(0, 0, 0, 0.225);
+    box-shadow: 10px -10px 15px rgba(0, 0, 0, 0.225);
 }
 .team3, .team6{
     margin-right: 0;
@@ -68,22 +65,21 @@ a{
     font-family:'Fredoka One';
 }
 .dati{
+    display: block;
     float: right;
-    padding-right: 50px;
-    padding-top: ;
+    margin-right: 25px;
+    
+
 }
 
 .team-name{
-    padding-top: 20px;
+    margin-top: 5px;
 }
 
 .team-rule{
-    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .team-mail{
     display: inline-block;
-    padding-top: 10px;
 }
-/* .team-name, .team-rule, .team-mail{
-    padding-top: 10px;
-} */
