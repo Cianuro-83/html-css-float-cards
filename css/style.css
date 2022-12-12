@@ -13,14 +13,23 @@
 
 img{
     max-width: 100%;
+    /* width: 90px; */
+    height: 105px;
 }
 .clearfix::after {
 	content: '';
 	display: table;
 	clear: both;
 }
+
+a{
+    text-decoration: none;
+    color:aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: aqua;
 }
@@ -55,3 +64,26 @@ img{
 .riga2{
     margin-top: 30px;
 }
+.team-name{
+    font-family:'Fredoka One';
+}
+.dati{
+    float: right;
+    padding-right: 50px;
+    padding-top: ;
+}
+
+.team-name{
+    padding-top: 20px;
+}
+
+.team-rule{
+    padding-top: 10px;
+}
+.team-mail{
+    display: inline-block;
+    padding-top: 10px;
+}
+/* .team-name, .team-rule, .team-mail{
+    padding-top: 10px;
+} */
